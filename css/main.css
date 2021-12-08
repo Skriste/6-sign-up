@@ -12,11 +12,7 @@ body {
 }
 .container {
     display: inline-block;
-<<<<<<< HEAD
     width: 800px;
-=======
-    width: 800 px;
->>>>>>> 37bc0028233605d4c7680d27e23226cdcdd2bbc0
     margin-top: 100px;
     margin-left: calc(50% - 400px);
 }
@@ -27,9 +23,9 @@ body {
     padding: 40px;
     margin-top: 20px;
     background-color: #494eac;
+    background-image: url(../images/hill.png);
 }
 
-<<<<<<< HEAD
 .main-title {
     color: crimson;
 }
@@ -60,11 +56,3 @@ bottom-links > .symbol {
     width: 100%;
     background-color: royalblue;
 }
-=======
-.right-column {
-    width: 60%;
-    float: left;
-    padding: 60px;
-    background-color: #fff;
-}
->>>>>>> 37bc0028233605d4c7680d27e23226cdcdd2bbc0
