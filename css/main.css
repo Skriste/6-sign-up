@@ -39,9 +39,8 @@ body {
 .container {
     display: inline-block;
     width: 800px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 100px;
+    margin-left: calc(50% - 400px);
 }
 
 .left-column {
@@ -80,6 +79,25 @@ body {
 
 .bottom-links > .symbol {
 
+}
+
+.main-title {
+    color: crimson;
+}
+
+.bottom-links > {
+    display: inline-block;
+    width: 100%;
+    background-color: cyan;
+}
+
+bottom-links > .symbol {
+    color: #fff;
+    font-size: 14px;
+}
+.close {
+    display: inline-block;
+    background-color: red;
 }
 
 .right-column {
