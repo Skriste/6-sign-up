@@ -9,24 +9,21 @@ body * {
 }
 
 body {
-
-    background-image: linear-gradient(red, yellow);
-    background-color: #00afcc;
     background-color: rgb(73, 76, 154);
     background: linear-gradient(
-    41deg,
-   rgba(73, 76, 154, 1) 0%,    
-    rgb(72, 117, 201) 100%
-);
+        41deg,
+        rgba(73, 76, 154, 1) 0%,
+        rgb(72, 117, 201) 100%
+    );
+
     background-color: red;
     position: relative;
     height: 100vh;
-    background-color: gray
 }
 
 .background-div {
     height: 100%;
-    background-image: url(../images/hill.png);
+    background-image: url(../hill.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,36 +35,31 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: blur(1.5re);
+    filter: blur(1.5rem);
 }
 
 .container {
     display: inline-block;
     width: 800px;
     position: absolute;
-    margin-top: 100px;
-    margin-top: 80px;
-    margin-top: 100px;
-    margin-left: calc(50% - 400px);
-    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column {
     width: 40%;
     float: left;
-    padding: 100px; 
-    margin-top: 20px;
-    padding: 40px;
     padding: 40px;
     background-color: #494eac;
     background-image: url(../hill.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     position: absolute;
     top: 30px;
     bottom: 30px;
-    background-position: center;
 }
 
 .main-title {
@@ -79,8 +71,10 @@ body {
 
 .bottom-links {
     display: inline-block;
-    width: 100%;
-    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
 }
 
 .bottom-links > .link {
@@ -115,7 +109,7 @@ body {
     padding: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 15px;
+    margin-left: 10px;
     line-height: 20px;
     font-size: 18px;
 }
@@ -123,6 +117,8 @@ body {
 .right-column a {
     display: inline-block;
     padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 20px;
     font-size: 18px;
     text-decoration: none;

@@ -1,12 +1,6 @@
 .form {
     display: inline-block;
     width: 100%;
-    background-color: #fff;
-}
-.form {
-    display: inline-block;
-    width: 100%;
-    color: none;
 }
 
 .form > .form-row {
@@ -35,11 +29,11 @@
 }
 
 .form > .form-row > input:focus {
-    outline: pink dotted 1px;
+    outline: violet dotted 1px;
     /* outline: none; */
 }
 
 .form input::placeholder {
-    color: aqua;
+    color: #999;
     font-style: italic;
 }
