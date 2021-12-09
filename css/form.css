@@ -1,30 +1,35 @@
 .form {
     display: inline-block;
     width: 100%;
-    background-color: #fff;
 }
-.form {
-    display: inline-block;
-    width: 100%;
-    color: none;
-}
-
-.form-row{
+.form > .form-row {
     display: inline-block;
     width: 100%;
     margin-bottom: 30px;
 }
 
-label {
+.form > .form-row:last-of-type{
+   margin-bottom: 0;
+}
+.form > .form-row > label{
     display: inline-block;
     width: 100%;
+    margin-bottom: 5px;
 }
-
-input {
+.form> .form-row > input {
     display: inline-block;
     width: 100%;
     font-size: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    line-height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+.form > .form-row > input:focus {
+    outline: violet dotted 1px;
+
+}
+
+.form input::placeholder {
+    color: #999;
+    font-style: italic;
 }
