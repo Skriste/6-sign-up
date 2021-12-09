@@ -12,7 +12,7 @@ body {
 }
 .container {
     display: inline-block;
-    width: 800 px;
+    width: 800px;
     margin-top: 100px;
     margin-left: calc(50% - 400px);
 }
@@ -25,9 +25,28 @@ body {
     background-color: #494eac;
 }
 
+.main-title {
+    color: crimson;
+}
+
+.bottom-links > {
+    display: inline-block;
+    width: 100%;
+    background-color: cyan;
+}
+
+bottom-links > .symbol {
+    color: #fff;
+    font-size: 14px;
+}
+.close {
+    display: inline-block;
+    background-color: red;
+}
+
 .right-column {
     width: 60%;
     float: left;
-    padding: 60px;
+    padding: 100px;
     background-color: #fff;
 }
