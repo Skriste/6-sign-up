@@ -15,20 +15,22 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
     <!--components-->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/form.css"> 
+    <link rel="stylesheet" href="./css/button.css">
  
     <!--components-->
-    <link rel="stylesheet" href="./css/form.css"> 
-
+    <link rel="stylesheet" href="./css/main.css">
        
 </head>
 <body>
+    <div class="background-div"></div>
+
     <main class="container">
         <div class="left-column">
             <h1 class="main-title">Sign up</h1>
             <div class="bottom-links">
                 <a class="link" href="#">Privacy policy</a>
-                <span class="symbol">&amp</span>></span>
+                <span class="symbol">&amp</span>
                 <a class="link" href="#">terms of service</a>
             </div>
         </div>
@@ -37,21 +39,25 @@
             <form class="form">
                 <div class="form-row">
                     <label for="">Username</label>
-                    <input type="text" placeholder="Your text..."> 
+                    <input id="Username" type="text" placeholder="Your Username..." required autocomplete="off"> 
                 </div>
                 <div class="form-row">
-                    <label for="">Email</label>
-                    <input type="text" placeholder="Your text...">
+                    <label for="email">Email</label>
+                    <input id="email" placeholder="Your email..." required autocomplete="email">
                 </div>
                 <div class="form-row">
                     <label for="">Password</label>
-                    <input type="password" placeholder="Your text...">
+                    <input id="pass" placeholder="Password..." required autocomplete="new-password">
                 </div>
                 <div class="form-row">
-                    <label for="">Repeat Password</label>
-                    <input type="password" placeholder="Your text...">
+                    <label for="re-pass">Repeat Password</label>
+                    <input id="re-pass" type="password" placeholder="Repeat password..." required autocomplete="new-password">
                 </div>
-                <div class="form-row"></div>
+                <div class="form-row">
+                    <button class="btn" type="submit">Register now</button>
+                    <span>or</span>
+                    <a href="./login/">Sign in</a>
+                </div>
             </form>
         </div>
     </main>
