@@ -1,15 +1,12 @@
 .form {
     display: inline-block;
     width: 100%;
-<<<<<<< Updated upstream
     background-color: #fff;
 }
 .form {
     display: inline-block;
     width: 100%;
     color: none;
-=======
->>>>>>> Stashed changes
 }
 
 .form > .form-row {
